@@ -5,10 +5,14 @@
 
 ### Css
 
+> 清除浮动
+
+> 伪类, 伪元素
+
 ### JavaScript
 
-> arguments
+> this, arguments
 
-> call、apply、bind
+> call, apply, bind
 
 > 事件流
