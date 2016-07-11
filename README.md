@@ -3,6 +3,8 @@
 
 ### Html
 
+> doctype
+
 ### Css
 
 > 清除浮动
@@ -16,3 +18,5 @@
 > call, apply, bind
 
 > 事件流
+
+> 自定义事件
