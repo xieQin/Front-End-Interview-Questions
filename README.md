@@ -3,20 +3,20 @@
 
 ### Html
 
-> doctype
+- doctype
 
 ### Css
 
-> 清除浮动
+- 清除浮动
 
-> 伪类, 伪元素
+- 伪类, 伪元素
 
 ### JavaScript
 
-> this, arguments
+- this, arguments
 
-> call, apply, bind
+- call, apply, bind
 
-> 事件流
+- 事件流
 
-> 自定义事件
+- 自定义事件
