@@ -11,6 +11,8 @@
 
 - 伪类, 伪元素
 
+- 元素居中（垂直居中、水平居中）
+
 ### JavaScript
 
 - this, arguments
