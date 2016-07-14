@@ -23,6 +23,45 @@
 
 - 自定义事件
 
+- 下列函数执行结果
+```js
+function test() {
+  var a = 0;
+  return function () {
+    console.log(++a);
+  }
+}
+
+var m = test();
+var n = test();
+
+m();
+m();
+n();
+```
+```js
+var a = [];
+var A = new Function;
+
+A.prototype = [];
+
+var aa = new A();
+aa.push(1)
+
+console.log(aa.length);
+console.log(a.length);
+```
+```js
+var foo = 1;
+function main() {
+  console.log(foo);
+  var foo = 2;
+  console.log(this.foo);
+  this.foo = 3;
+}
+main();
+new main();
+```
 ### Node.js
 
 - express 中间件
@@ -33,9 +72,15 @@
 
 - jQuery 插件机制
 
+- jQuery.extend
+
 ### Vue.js
 
-- Vue 组件生命周期
+- Vue 实例生命周期
+
+- Vue生命周期钩子
+
+- Vue如何实现watch
 
 ### Angular
 
